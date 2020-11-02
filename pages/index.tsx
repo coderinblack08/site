@@ -1,5 +1,6 @@
-import { Navbar } from '../components/Navbar';
 import React from 'react';
+import Link from 'next/link';
+import { Navbar } from '../components/Navbar';
 import { TechStack } from 'components/TechStack';
 import { Card } from 'components/Card';
 
@@ -30,9 +31,11 @@ const Index: React.FC = () => {
                 of software, technology, and computation.
               </p>
               <div className="flex flex-col sm:flex-row sm:items-center mt-8">
-                <button className="focus:outline-none focus:shadow-outline-blue transition ease duration-200 px-6 py-3 font-medium rounded button-shadow bg-primary text-white">
-                  Reach Out
-                </button>
+                <Link href="/contact">
+                  <button className="focus:outline-none focus:shadow-outline-blue transition ease duration-200 px-6 py-3 font-medium rounded button-shadow bg-primary text-white">
+                    Reach Out
+                  </button>
+                </Link>
                 <div className="text-gray-600 px-6 py-3 text-center mt-2 sm:mt-0 text-sm font-normal">
                   Checkout{' '}
                   <a href="#projects" className="text-primary hover:underline">

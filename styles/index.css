@@ -2,6 +2,10 @@
 
 @tailwind base;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @tailwind components;
 
 .button-shadow {

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 export const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
@@ -7,9 +8,11 @@ export const Navbar: React.FC = () => {
     <div className="bg-white z-50 container mx-auto">
       <nav className="flex flex-col sm:flex-row sm:items-center justify-between w-full py-6">
         <div className="flex items-center justify-between w-full sm:w-auto">
-          <div className="text-lg sm:text-xl font-medium text-gray-800 font-dm">
-            Coderinblack
-          </div>
+          <Link href="/">
+            <a className="text-lg sm:text-xl font-medium text-gray-800 font-dm">
+              Coderinblack
+            </a>
+          </Link>
           <button onClick={() => setOpen(!open)} className="focus:outline-none">
             <svg
               className="block sm:hidden w-6 h-6 text-gray-800 hover:text-gray-600"
@@ -45,9 +48,11 @@ export const Navbar: React.FC = () => {
             </a>
           </li>
           <li className="w-full sm:w-auto">
-            <button className="px-4 py-2 w-full sm:w-auto rounded button-shadow bg-primary hover:bg-opacity-75 font-medium text-white focus:outline-none focus:shadow-outline-blue transition ease duration-200">
-              Contact Me
-            </button>
+            <Link href="/contact">
+              <button className="px-4 py-2 w-full sm:w-auto rounded button-shadow bg-primary hover:bg-opacity-75 font-medium text-white focus:outline-none focus:shadow-outline-blue transition ease duration-200">
+                Contact Me
+              </button>
+            </Link>
           </li>
         </ul>
       </nav>
