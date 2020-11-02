@@ -1,4 +1,3 @@
-# Simple and adaptable collection of tailwind components
+# Coderinblack Portfolio/Personal Website
 
-This isn't meant to be a full-blown library, but rather a reference for anyone who 
-finds any of the components interesting for is struggling to implement them!
+Hello everyone! I'm the one and only **coderinblack**. Check this out live at [https://coderinblack.now.sh](https://coderinblack.now.sh)
