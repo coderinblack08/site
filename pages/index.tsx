@@ -77,6 +77,48 @@ const Index: React.FC = () => {
               <br className="hidden xl:block" />
               communities thrive while social distancing.
             </p>
+            <div className="text-lg font-normal divide-x divide-gray-700 mt-5">
+              <a
+                href="https://pluto.vercel.app"
+                className="inline-flex items-center text-blue-400 hover:text-blue-300 pr-4"
+              >
+                <svg
+                  className="w-5 h-5 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                  ></path>
+                </svg>
+                pluto.vercel.app
+              </a>
+              <a
+                href="https://github.com/coderinblack08/pluto"
+                className="inline-flex items-center divide-x text-gray-400 hover:text-gray-300 pl-4"
+              >
+                <svg
+                  className="w-5 h-5 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                  ></path>
+                </svg>
+                coderinblack08 / pluto
+              </a>
+            </div>
             <div className="flex items-center space-x-2 mt-6">
               <div className="inline bg-blue-500 text-blue-100 px-3 py-1 shadow-md rounded text-sm font-bold">
                 REACT
