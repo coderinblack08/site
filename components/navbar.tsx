@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => (
       <div className="text-xl font-medium text-gray-800 font-dm">
         Coderinblack
       </div>
-      <ul className="flex items-center space-x-12 text-gray-600">
+      <ul className="hidden sm:flex items-center space-x-12 text-gray-600">
         <li>
           <a href="#">01. Projects</a>
         </li>

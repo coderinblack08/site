@@ -15,6 +15,15 @@ module.exports = {
       backgroundOpacity: {
         96: '0.96',
       },
+      minHeight: {
+        '4xl': '720px',
+      },
+      maxHeight: {
+        '2xl': '32rem',
+      },
+      height: {
+        84: '21rem',
+      },
     },
   },
   variants: {},
