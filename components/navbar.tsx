@@ -30,7 +30,7 @@ export const Navbar: React.FC = () => (
           <a href="#">02. About Me</a>
         </li>
         <li>
-          <button className="px-4 py-2 rounded button-shadow bg-primary font-medium text-white focus:outline-none focus:shadow-outline transition ease duration-200">
+          <button className="px-4 py-2 rounded button-shadow bg-primary font-medium text-white focus:outline-none focus:shadow-outline-blue transition ease duration-200">
             Contact Me
           </button>
         </li>

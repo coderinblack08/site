@@ -15,8 +15,11 @@ module.exports = {
       backgroundOpacity: {
         96: '0.96',
       },
+      boxShadow: {
+        'outline-blue': '0 0 0 3px rgba(164, 202, 254, .45)',
+      },
       minHeight: {
-        '4xl': '720px',
+        '3xl': '42rem',
       },
       maxHeight: {
         '2xl': '32rem',
