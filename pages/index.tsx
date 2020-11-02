@@ -159,7 +159,7 @@ const Index: React.FC = () => {
             nobackend
           />
           <Card
-            image="/pluto.png"
+            image="/gekko.png"
             header="Gekko"
             text="Gekko is an open source project created for school districts, extra-curricular classes, and or other educational programs to communicate with students and guardians digitally."
             helper={
@@ -240,7 +240,7 @@ const Index: React.FC = () => {
               <a
                 href="https://github.com/coderinblack08"
                 target="_blank"
-                className="shadow cursor-pointer text-left focus:outline-none col-span-1 bg-white bg-opacity-25 rounded px-6 py-8 text-white transition ease duration-300 transform hover:scale-105"
+                className="shadow-sm cursor-pointer text-left focus:outline-none col-span-1 bg-white bg-opacity-25 rounded-md px-6 py-8 text-white transition ease duration-300 transform hover:scale-105"
               >
                 <h3 className="text-2xl font-extrabold mb-2">My Github</h3>
                 <p className="opacity-75">
@@ -252,7 +252,7 @@ const Index: React.FC = () => {
               <a
                 href="https://blog.coderinblack.now.sh"
                 target="_blank"
-                className="shadow cursor-pointer text-left focus:outline-none col-span-1 bg-white bg-opacity-25 rounded px-6 py-8 text-white transition ease duration-300 transform hover:scale-105"
+                className="shadow-sm cursor-pointer text-left focus:outline-none col-span-1 bg-white bg-opacity-25 rounded-md px-6 py-8 text-white transition ease duration-300 transform hover:scale-105"
               >
                 <h3 className="text-2xl font-extrabold mb-2">
                   Coderinblack blog
