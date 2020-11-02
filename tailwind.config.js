@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         primary: '#1074E7',
       },
+      backgroundOpacity: {
+        96: '0.96',
+      },
     },
   },
   variants: {},
