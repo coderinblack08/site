@@ -2,7 +2,11 @@ import * as React from 'react';
 import '../styles/index.css';
 
 function MyApp({ Component, pageProps }: any) {
-  return <Component {...pageProps} />;
+  return (
+    <div className="antialiased">
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
 export default MyApp;
