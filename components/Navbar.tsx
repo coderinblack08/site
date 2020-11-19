@@ -38,12 +38,12 @@ export const Navbar: React.FC = () => {
           } sm:flex sm:flex-row sm:items-center sm:space-x-12 text-gray-600 text-sm md:text-base`}
         >
           <li>
-            <a href="#" className="hover:text-gray-700">
+            <a href="#projects" className="hover:text-gray-700">
               01. Projects
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-700">
+            <a href="#about" className="hover:text-gray-700">
               02. About Me
             </a>
           </li>

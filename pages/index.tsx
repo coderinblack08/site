@@ -207,6 +207,7 @@ const Index: React.FC = () => {
           style={{
             background: 'linear-gradient(135deg, #FEB692 0%, #EA5455 100%)',
           }}
+          id="#about"
         >
           <div className="max-w-4xl mx-auto py-32 px-5">
             <div>
