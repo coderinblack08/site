@@ -217,7 +217,7 @@ const Index: React.FC = () => {
                 Quite spooky indeed
               </p>
               <p className="text-white opacity-75">
-                I’m a self-tought developer student based in Sillicon Valley. I
+                I’m a self-thought developer student based in Silicon Valley. I
                 enjoy geeky stuff and chillin’ out. I do full-stack dev with a
                 slight preference for the frontend. Here are some fun facts
                 about me:
